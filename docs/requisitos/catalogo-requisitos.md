@@ -279,7 +279,11 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
-|NFR-01|NFR-Q (Disponibilidad) |La plataforma alcanzará una disponibilidad mínima del 99,5% en cada mes natural |G|-|Mediante comprobaciones externas cada cinco minutos||-|
+|NFR-01|NFR-Q (Disponibilidad) |La plataforma alcanzará una disponibilidad mínima del 99,5% en cada mes natural |G|-|Mediante comprobaciones externas cada cinco minutos|-|
+|NFR-03||NFR-Q (Recuperación)|La plataforma debe ofrecer mecanismos de copia de seguridad cada 24h |G|-|Se comprobará mediante una prueba de restauración al menos cada 3 meses|-|
+|NFR-04|NFR-I (Interfaz de software)|La autenticación de  cuentas de Google se realizará utilizando OAuth 2.0 o OpenID Connect sobre HTTPS sin almacenar las contraseñas de las cuentas|G|Prueba de autenticación con una cuenta de prueba además de una revisión de la configuración de la integración|-|
+|NFR-05|NFR-I (Interfaz de usuario)|La plataforma deberá lanzarse en primera instancia con disponibilidad en castellano y gallego|G|-|-|
+|NFR-06|NFR-R (Tecnología y entorno)|La plataforma se lanzará exclusivamente en un entorno web|G|-|-|
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
 2) Restricciones (NFR-R): Tecnología y entorno, Hardware, Regulaciones y estándares, Compatibilidad, Interfaces existentes, Restricciones presupuestarias y de gestión.
