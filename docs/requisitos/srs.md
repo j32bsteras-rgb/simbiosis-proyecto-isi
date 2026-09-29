@@ -272,7 +272,7 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 |Receta aceptada|receta adecuada al perfil, las alergias o las restricciones alimentarias de un paciente.La plataforma no modifica automáticamente sus ingredientes o cantidades.|DVA s1.1 y 2.1 y A3 s3|
 |Coordinador|Rol moderador de la plataforma, se encarga de revisar el contenido de las publicaciones|DVA s3.1|
 |Recetada validada|receta previamente revisada por un profesional de la salud|DVA s1.2 s3.1|
-|Paciente|Persona registrada en la plataforma que padece de EII |DVA s1.2 y s3.1|
+|Paciente|Persona registrada en la plataforma que padece de EII |DVA s3.1|
 
 ## 10. Modelos de análisis
 
